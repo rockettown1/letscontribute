@@ -3,48 +3,52 @@ import logo from "./logo.svg";
 import "./App.css";
 import Card from "./components/Card";
 import KatieCard from "./components/KatieCard"
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+import Card from './components/Card';
+
+
+import RandomFunction from './components/Luke';
+
+import Mordechai from "./components/Mordechai";
+
+import Niall from "./components/Niall";
 
 import RandomFunction from "./components/Luke";
 
 import Picture from "./components/Picture";
 
+import Sara from './components/Sara';
 
 class App extends Component {
-  state = {
-    dan: "Dan Krishnan",
-<<<<<<< HEAD
-    katie: "Katie Hughes"
-=======
 
-    luke: "Luke Stobbart",
+	state = {
+		dan: 'Dan Krishnan',
+    mordechai: "Mordechai Weinstock",
+		luke: 'Luke Stobbart',
+    katie: "Katie Hughes",
+		nat: 'Natalia',
+		sara: 'Sara',
+		pic: 'https://picsum.photos/200/300',
+	};
 
-    nat: "Natalia"
-
-
->>>>>>> 0c209544ab84a6800f40b2d0ef459d35b5b8c2e8
-  };
-
-  render() {
-    const { luke } = this.state
-    return (
-      <div className="App">
-
-        <Card name={this.state.dan} />
-<<<<<<< HEAD
-        <KatieCard name={this.state.katie} />
-=======
-        <RandomFunction luke={luke} />
-
-         <Picture/>
-         <Card name={this.state.dan} />
-         <Card name={this.state.nat} />
-        
-       
-
->>>>>>> 0c209544ab84a6800f40b2d0ef459d35b5b8c2e8
-      </div>
-    );
+	render() {
+		const { luke, sara, pic } = this.state;
+		return (
+			<div className="App">
+				<Card name={this.state.dan} />
+				<RandomFunction luke={luke} />
+				<Picture />
+				<Card name={this.state.dan} />
+				<Card name={this.state.nat} />
+				<Sara sara={sara} pic={pic} />
+      <Mordechai name={this.state.mordechai} />
+      <KatieCard name={this.state.katie} />
+			</div>
+		);
   }
+
 }
 
 export default App;
