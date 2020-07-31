@@ -13,6 +13,8 @@ import RandomFunction from "./components/Luke";
 
 import Picture from "./components/Picture";
 
+import { Gareth } from "./components/Gareth"
+
 
 import { Gareth } from "./components/Gareth"
 
@@ -32,9 +34,11 @@ class App extends Component {
 
     nat: "Natalia",
 
-    gareth: "Gareth Scott"
+    nat: "Natalia",
 
-    adam: 'Adam Horscraft'
+    gareth: "Gareth Scott",
+
+    adam: 'Adam Horscraft',
 
 
 
@@ -52,6 +56,12 @@ class App extends Component {
         <Card name={this.state.dan} />
         <RandomFunction luke={luke} />
 
+        <Picture />
+        <Card name={this.state.dan} />
+        <Card name={this.state.nat} />
+
+
+
 
         <Card name={this.state.adam} />
 
@@ -66,9 +76,8 @@ class App extends Component {
         <Card name={this.state.nat} />
         <Sara sara={sara} pic={pic} />
         <Mordechai name={this.state.mordechai} />
-
-
-      </div>
+        <Gareth gareth={this.state.gareth} />
+      </div >
     );
   }
 }
