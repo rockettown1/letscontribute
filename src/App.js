@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Card from "./components/Card";
+import Niall from "./components/Niall";
 
 import RandomFunction from "./components/Luke";
 
@@ -11,6 +12,7 @@ import Picture from "./components/Picture";
 class App extends Component {
   state = {
     dan: "Dan Krishnan",
+    niall: "Niall Rogers",
 
     luke: "Luke Stobbart",
 
@@ -25,13 +27,14 @@ class App extends Component {
       <div className="App">
 
         <Card name={this.state.dan} />
+        <Niall name={this.state.niall} />
         <RandomFunction luke={luke} />
 
-         <Picture/>
-         <Card name={this.state.dan} />
-         <Card name={this.state.nat} />
-        
-       
+        <Picture />
+        <Card name={this.state.dan} />
+        <Card name={this.state.nat} />
+
+
 
       </div>
     );
