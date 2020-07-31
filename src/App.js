@@ -17,13 +17,20 @@ class App extends Component {
   state = {
     dan: "Dan Krishnan",
     mordechai: "Mordechai Weinstock",
+    classNames: {name: "red"},
     luke: "Luke Stobbart",
+    nat: "Natalia",
     nat: "Natalia",
     gareth: "Gareth Scott",
     adam: 'Adam Horscraft',
     niall: "Niall",
     sara: "Sara",
     pic: "https://picsum.photos/200/300",
+  }
+
+  classNameHandler = () => {
+    this.state.classNames === "red" ? this.setState({name: "green"}) : this.setState({name: "red"})
+  }
     katie: "Katie"
   };
 
@@ -33,22 +40,20 @@ class App extends Component {
 			<div className="App">
         <Time />
         <Card name={this.state.dan} />
+        <RandomFunction luke={luke} />
         <Picture />
         <RandomFunction luke={luke} />
         
         <Card name={this.state.nat} />
         <Card name={this.state.adam} />
-        <PictureTwo />
         <Niall name={this.state.niall} />
-
+        <Card name={this.state.dan} />
+        <Card name={this.state.nat} />
         <Sara sara={sara} pic={pic} />
-        <Mordechai name={this.state.mordechai} />
-        <KatieCard name={this.state.katie} />
-        <Card name={this.state.adam} />
-        <Gareth gareth={this.state.gareth} />
+        <Mordechai name={this.state.mordechai} classNameHandler={this.classNameHandler} className={this.state.classNames.name}/>
+        <Gareth gareth={this.state.gareth}/>
 			</div>
 		);
   }
-}
 
 export default App;
