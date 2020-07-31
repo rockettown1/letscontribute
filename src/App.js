@@ -7,6 +7,8 @@ import RandomFunction from "./components/Luke";
 
 import Picture from "./components/Picture";
 
+import myName from './components/Adam';
+
 
 class App extends Component {
   state = {
@@ -15,6 +17,8 @@ class App extends Component {
     luke: "Luke Stobbart",
 
     nat: "Natalia"
+
+    adam: 'Adam Horscraft'
 
 
   };
@@ -27,11 +31,12 @@ class App extends Component {
         <Card name={this.state.dan} />
         <RandomFunction luke={luke} />
 
-         <Picture/>
-         <Card name={this.state.dan} />
-         <Card name={this.state.nat} />
-        
-       
+        <Picture />
+        <Card name={this.state.dan} />
+        <Card name={this.state.nat} />
+        <Card name={this.state.adam} />
+
+
 
       </div>
     );
