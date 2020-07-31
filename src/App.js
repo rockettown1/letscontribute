@@ -12,6 +12,12 @@ import RandomFunction from './components/Luke';
 import { Gareth } from './components/Gareth';
 
 import Picture from './components/Picture';
+
+import { Gareth } from './components/Gareth';
+
+import { Gareth } from './components/Gareth';
+
+import Picture from './components/Picture';
 import Sara from './components/Sara';
 
 import myName from './components/Adam';
@@ -25,7 +31,11 @@ class App extends Component {
 
 		nat: 'Natalia',
 
+		nat: 'Natalia',
+
 		gareth: 'Gareth Scott',
+
+		adam: 'Adam Horscraft',
 
 		niall: 'Niall',
 		nat: 'Natalia',
@@ -37,9 +47,12 @@ class App extends Component {
 		const { luke, sara, pic } = this.state;
 		return (
 			<div className="App">
-				<Time />
 				<Card name={this.state.dan} />
 				<RandomFunction luke={luke} />
+
+				<Picture />
+				<Card name={this.state.dan} />
+				<Card name={this.state.nat} />
 
 				<Card name={this.state.adam} />
 
@@ -49,6 +62,7 @@ class App extends Component {
 				<Card name={this.state.nat} />
 				<Sara sara={sara} pic={pic} />
 				<Mordechai name={this.state.mordechai} />
+				<Gareth gareth={this.state.gareth} />
 			</div>
 		);
 	}
