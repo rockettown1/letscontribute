@@ -12,6 +12,7 @@ import { PictureTwo } from "./components/Picture2"
 import Sara from "./components/Sara";
 import myName from './components/Adam';
 import Time from './components/Time';
+import Picture from "./components/Picture"
 
 class App extends Component {
   state = {
@@ -34,7 +35,7 @@ class App extends Component {
         <Time />
         <Card name={this.state.dan} />
         <Picture />
-        <RandomFunction luke={luke} />
+        {/* <RandomFunction luke={luke} /> */}
         
         <Card name={this.state.nat} />
         <Card name={this.state.adam} />
