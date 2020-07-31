@@ -1,17 +1,11 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Card from "./components/Card";
 import KatieCard from "./components/KatieCard"
-import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Card from './components/Card';
-import RandomFunction from "./components/Luke";
 import Mordechai from "./components/Mordechai";
 import Niall from "./components/Niall";
 import RandomFunction from "./components/Luke";
-import Picture from "./components/Picture";
 import Sara from './components/Sara';
 import { Gareth } from "./components/Gareth"
 import Picture from "./components/Picture";
@@ -26,7 +20,6 @@ class App extends Component {
     gareth: "Gareth Scott",
     adam: 'Adam Horscraft',
     niall: "Niall",
-    nat: "Natalia",
     sara: "Sara",
     pic: "https://picsum.photos/200/300",
   };
