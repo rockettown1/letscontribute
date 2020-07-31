@@ -62,7 +62,6 @@ class App extends Component {
 
 
         <Niall name={this.state.niall} />
-        <Picture />
         <Card name={this.state.dan} />
         <Card name={this.state.nat} />
         <Sara sara={sara} pic={pic} />
