@@ -11,6 +11,8 @@ import Niall from "./components/Niall";
 
 import Picture from "./components/Picture";
 
+import { Gareth } from "./components/Gareth"
+
 
 import { Gareth } from "./components/Gareth"
 
@@ -28,6 +30,7 @@ class App extends Component {
 
     nat: "Natalia",
 
+
     gareth: "Gareth Scott",
 
     adam: 'Adam Horscraft',
@@ -35,7 +38,7 @@ class App extends Component {
 
 
     niall: "Niall",
-    nat: "Natalia",
+
     sara: "Sara",
     pic: "https://picsum.photos/200/300",
 
@@ -47,6 +50,12 @@ class App extends Component {
       <div className="App">
         <Card name={this.state.dan} />
         <RandomFunction luke={luke} />
+
+        <Picture />
+        <Card name={this.state.dan} />
+        <Card name={this.state.nat} />
+
+
 
 
         <Card name={this.state.adam} />
@@ -62,9 +71,8 @@ class App extends Component {
         <Card name={this.state.nat} />
         <Sara sara={sara} pic={pic} />
         <Mordechai name={this.state.mordechai} />
-
-
-      </div>
+        <Gareth gareth={this.state.gareth} />
+      </div >
     );
   }
 }
