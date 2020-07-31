@@ -9,15 +9,11 @@ import Mordechai from "./components/Mordechai";
 
 import Niall from "./components/Niall";
 
-import RandomFunction from "./components/Luke";
-
 import Picture from "./components/Picture";
 
 
 import { Gareth } from "./components/Gareth"
 
-
-import Picture from "./components/Picture";
 import Sara from "./components/Sara";
 
 import myName from './components/Adam';
@@ -32,9 +28,9 @@ class App extends Component {
 
     nat: "Natalia",
 
-    gareth: "Gareth Scott"
+    gareth: "Gareth Scott",
 
-    adam: 'Adam Horscraft'
+    adam: 'Adam Horscraft',
 
 
 
