@@ -21,7 +21,7 @@ class App extends Component {
     dan: "Dan Krishnan",
     mordechai: "Mordechai Weinstock",
     luke: "Luke Stobbart",
-
+    niall: "Niall",
     nat: "Natalia",
     sara: "Sara",
     pic: "https://picsum.photos/200/300",
@@ -33,7 +33,7 @@ class App extends Component {
       <div className="App">
         <Card name={this.state.dan} />
         <RandomFunction luke={luke} />
-
+        <Niall name={this.state.niall} />
         <Picture />
         <Card name={this.state.dan} />
         <Card name={this.state.nat} />
