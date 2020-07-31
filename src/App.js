@@ -22,6 +22,7 @@ class App extends Component {
     niall: "Niall",
     sara: "Sara",
     pic: "https://picsum.photos/200/300",
+    katie: "Katie"
   };
 
 	render() {
@@ -43,7 +44,6 @@ class App extends Component {
         <Card name={this.state.nat} />
         <Sara sara={sara} pic={pic} />
         <Mordechai name={this.state.mordechai} />
-
         <Gareth gareth={this.state.gareth} />
 			</div>
 		);
