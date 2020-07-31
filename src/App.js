@@ -32,16 +32,19 @@ class App extends Component {
 		return (
 			<div className="App">
         <Time />
-				<RandomFunction luke={luke} />
-				<Picture />
+        <Card name={this.state.dan} />
+        <Picture />
+        <RandomFunction luke={luke} />
+        
+        <Card name={this.state.nat} />
+        <Card name={this.state.adam} />
         <PictureTwo />
-				<Card name={this.state.dan} />
-				<Card name={this.state.nat} />
-				<Sara sara={sara} pic={pic} />
+        <Niall name={this.state.niall} />
+
+        <Sara sara={sara} pic={pic} />
         <Mordechai name={this.state.mordechai} />
         <KatieCard name={this.state.katie} />
         <Card name={this.state.adam} />
-        <Niall name={this.state.niall} />
         <Gareth gareth={this.state.gareth} />
 			</div>
 		);
