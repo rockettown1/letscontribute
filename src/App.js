@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Card from "./components/Card";
 
@@ -14,11 +13,9 @@ import Picture from "./components/Picture";
 import { Gareth } from "./components/Gareth"
 
 
-import { Gareth } from "./components/Gareth"
-
 import Sara from "./components/Sara";
 
-import myName from './components/Adam';
+// import myName from './components/Adam';
 
 
 class App extends Component {
@@ -30,11 +27,7 @@ class App extends Component {
 
     nat: "Natalia",
 
-<<<<<<< HEAD
-=======
-    nat: "Natalia",
 
->>>>>>> 892aa252ffc1b5d3b0c11e6671908296eb17b7db
     gareth: "Gareth Scott",
 
     adam: 'Adam Horscraft',
@@ -42,7 +35,6 @@ class App extends Component {
 
 
     niall: "Niall",
-    nat: "Natalia",
     sara: "Sara",
     pic: "https://picsum.photos/200/300",
 
