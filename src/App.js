@@ -7,7 +7,6 @@ import Card from "./components/Card";
 import RandomFunction from "./components/Luke";
 import Mordechai from "./components/Mordechai";
 import Niall from "./components/Niall";
-import Picture from "./components/Picture";
 import { Gareth } from "./components/Gareth"
 import { PictureTwo } from "./components/Picture2"
 import Picture from "./components/Picture";

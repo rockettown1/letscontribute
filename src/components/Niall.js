@@ -4,7 +4,7 @@ const Niall = ({ name }) => {
     return (
         <div >
             <h1 style={{ color: "blue" }}> Hello I'm {name}</h1>
-            <img src="https://thumbs-prod.si-cdn.com/cbQjBu4sVSJBdcwJiNAw2GTDWSM=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/Design-Decoded-Smiley-Face-631%20copy.jpg" alt="Smiley face" width="100" height="42" />
+            <img src="https://cdn.discordapp.com/attachments/241220342016770058/738716852611579965/image0.jpg" alt="Gordan Ramsay" width="234" height="276" />
         </div>
     );
 };
