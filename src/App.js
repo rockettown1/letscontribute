@@ -47,6 +47,7 @@ class App extends Component {
 		const { luke, sara, pic } = this.state;
 		return (
 			<div className="App">
+				<Time />
 				<Card name={this.state.dan} />
 				<RandomFunction luke={luke} />
 
