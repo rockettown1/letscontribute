@@ -1,9 +1,10 @@
 import React from "react";
+import img from "../assets/images/download.jpeg"
 
 const Picture = () => {
   return (
     <div>
-      <img src="https://en.meming.world/images/en/thumb/1/17/Monkey_Puppet.jpg/300px-Monkey_Puppet.jpg" alt="" />
+      <img src={img} alt="someth" />
     </div>
   );
 };

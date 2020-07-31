@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
+
+import React, { Component } from 'react';
+import logo from './logo.svg';
 import "./App.css";
 import Card from "./components/Card";
 import RandomFunction from "./components/Luke";
@@ -9,6 +10,7 @@ import Picture from "./components/Picture";
 import { Gareth } from "./components/Gareth";
 import Sara from "./components/Sara";
 import myName from './components/Adam';
+import Time from './components/Time';
 
 class App extends Component {
   state = {
@@ -21,7 +23,6 @@ class App extends Component {
     gareth: "Gareth Scott",
     adam: 'Adam Horscraft',
     niall: "Niall",
-    nat: "Natalia",
     sara: "Sara",
     pic: "https://picsum.photos/200/300",
   }
@@ -34,14 +35,16 @@ class App extends Component {
     const { luke, sara, pic } = this.state;
     return (
       <div className="App">
+        <Time />
         <Card name={this.state.dan} />
         <RandomFunction luke={luke} />
         <Picture />
+        <RandomFunction luke={luke} />
+        
         <Card name={this.state.dan} />
         <Card name={this.state.nat} />
         <Card name={this.state.adam} />
         <Niall name={this.state.niall} />
-        <Picture />
         <Card name={this.state.dan} />
         <Card name={this.state.nat} />
         <Sara sara={sara} pic={pic} />
