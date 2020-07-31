@@ -34,14 +34,15 @@ class App extends Component {
       <div className="App">
         <Time />
         <Card name={this.state.dan} />
-        <RandomFunction luke={luke} />
         <Picture />
+        <RandomFunction luke={luke} />
+        
         <Card name={this.state.dan} />
         <Card name={this.state.nat} />
         <Card name={this.state.adam} />
         <PictureTwo />
         <Niall name={this.state.niall} />
-        <Picture />
+
         <Card name={this.state.dan} />
         <Card name={this.state.nat} />
         <Sara sara={sara} pic={pic} />

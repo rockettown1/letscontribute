@@ -1,9 +1,10 @@
 import React from "react";
+import img from "../assets/images/download.jpeg"
 
 const Picture = () => {
   return (
     <div>
-      <img src="https://media1.giphy.com/media/1iUZa41YxKQtaJq0/source.gif" alt="" />
+      <img src={img} alt="someth" />
     </div>
   );
 };
