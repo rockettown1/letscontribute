@@ -10,7 +10,6 @@ import Niall from "./components/Niall";
 import Picture from "./components/Picture";
 import { Gareth } from "./components/Gareth"
 import { PictureTwo } from "./components/Picture2"
-import Picture from "./components/Picture";
 import Sara from "./components/Sara";
 import myName from './components/Adam';
 import Time from './components/Time';
