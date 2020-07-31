@@ -4,6 +4,7 @@ import Card from "./components/Card";
 import RandomFunction from "./components/Luke";
 import Mordechai from "./components/Mordechai";
 import Niall from "./components/Niall";
+
 import Picture from "./components/Picture";
 
 import { Gareth } from "./components/Gareth"
@@ -16,12 +17,13 @@ class App extends Component {
     dan: "Dan Krishnan",
     mordechai: "Mordechai Weinstock",
     luke: "Luke Stobbart",
+
     nat: "Natalia",
+
     gareth: "Gareth Scott",
     adam: 'Adam Horscraft',
     nat: "Natalia",
     niall: "Niall",
-    nat: "Natalia",
     sara: "Sara",
     pic: "https://picsum.photos/200/300",
 
@@ -39,7 +41,6 @@ class App extends Component {
 
         <Card name={this.state.adam} />
         <Niall name={this.state.niall} />
-        <Picture />
         <Card name={this.state.dan} />
         <Card name={this.state.nat} />
         <Sara sara={sara} pic={pic} />
