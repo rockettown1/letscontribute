@@ -7,7 +7,6 @@ import KatieCard from "./components/KatieCard"
 import './App.css';
 import Mordechai from "./components/Mordechai";
 import Niall from "./components/Niall";
-import Picture from "./components/Picture";
 import { Gareth } from "./components/Gareth"
 import { PictureTwo } from "./components/Picture2"
 import Sara from "./components/Sara";
