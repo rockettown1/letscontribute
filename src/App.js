@@ -18,7 +18,7 @@ import { Gareth } from "./components/Gareth"
 
 import { Gareth } from "./components/Gareth"
 
-
+import { PictureTwo } from "./components/Picture2"
 import Picture from "./components/Picture";
 import Sara from "./components/Sara";
 
@@ -77,6 +77,7 @@ class App extends Component {
         <Sara sara={sara} pic={pic} />
         <Mordechai name={this.state.mordechai} />
         <Gareth gareth={this.state.gareth} />
+        <PictureTwo />
       </div >
     );
   }
